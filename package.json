@@ -2,11 +2,12 @@
   "name": "xp-parking",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "http-server ."
-  },"dependencies": {
-    "firebase": "^10.12.5",
-    "http-server": "^14.1.1"
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase": "^10.12.5"
   }
 }
